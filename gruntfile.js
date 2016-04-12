@@ -21,7 +21,7 @@ module.exports = function(grunt) {
        files : [{
           expand : true,            // Enable dynamic expansion.
           cwd : 'less/',             // Src matches are relative to this path.
-          src : ['outdoor-research.less'],         // Actual pattern(s) to match.
+          src : ['horizontal-scroll.less'],         // Actual pattern(s) to match.
           dest : 'css/', // Destination path prefix.
           ext : '.css'              // Dest filepaths will have this extension.
         }]
@@ -40,7 +40,7 @@ module.exports = function(grunt) {
        files : [{
           expand : true,            // Enable dynamic expansion.
           cwd : 'less/',             // Src matches are relative to this path.
-          src : ['outdoor-research.css'],         // Actual pattern(s) to match.
+          src : ['horizontal-scroll.css'],         // Actual pattern(s) to match.
           dest : '/css/', // Destination path prefix.
           ext : '.css'        // Dest filepaths will have this extension.
         }]
@@ -65,7 +65,7 @@ module.exports = function(grunt) {
         multiple_files: {
           expand: true,
           flatten: true,
-        src: 'css/outdoor-research.css', // -> src/css/file1.css, src/css/file2.css
+        src: 'css/horizontal-scroll.css', // -> src/css/file1.css, src/css/file2.css
         dest: 'css/' // -> dest/css/file1.css, dest/css/file2.css
       }
     },

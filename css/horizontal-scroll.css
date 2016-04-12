@@ -1,0 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+.scroll-container {
+  display: -webkit-box;
+  display: flex;
+}
